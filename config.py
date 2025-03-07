@@ -13,7 +13,7 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7658357765:AAFNojY3QWjcLUvT17D5RYv1ZQFwhSQHCEA")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "26728872"))
 
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "96985c2aaea6c75408528909b7e18879")
@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "96985c2aaea6c75408528909b7e18879")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002343892805"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1705634892"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -35,19 +35,19 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Not2Worry")
 TIME = int(os.environ.get("TIME", "0"))
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002169827133"))
 #put 0 to disable
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002347470858"))#put 0 to disable
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Greetings!</b>\n\n𝙸𝚖 𝚊 𝚜𝚞𝚙𝚎𝚛𝚌𝚑𝚊𝚛𝚐𝚎𝚍 💾 𝚊𝚗𝚒𝚖𝚎 𝚏𝚒𝚕𝚎 𝚋𝚘𝚝, 🤖 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚞𝚙𝚕𝚘𝚊𝚍𝚜 𝚠𝚒𝚝𝚑 𝚎𝚊𝚜𝚎! ✨ 𝑰'𝒎 𝒑𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 <a href='https://t.me/Animes_Guy'>𝗔𝗻𝗶𝗺𝗲 𝗚𝘂𝘆!!</a> 😉.𝙸 𝚘𝚗𝚕𝚢 𝚜𝚝𝚘𝚛𝚎 𝚊𝚗𝚒𝚖𝚎 𝚏𝚒𝚕𝚎𝚜 😁 𝙸𝚗 𝚕𝚘𝚠 𝚖𝚋.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "1705634892 7465574522").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -58,7 +58,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊ�
 # Start & Fsub Pics ----------------------------------- #
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
-PICS = (os.environ.get("PICS", "")).split() #Required
+PICS = (os.environ.get("PICS", "https://files.catbox.moe/lllex3.jpg")).split() #Required
 
 # Start & Fsub Pics ----------------------------------- #
 
@@ -72,7 +72,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = ""
+USER_REPLY_TEXT = "𝑰 𝒅𝒐𝒏'𝒕 𝒘𝒐𝒓𝒌 𝒇𝒐𝒓 𝒚𝒐𝒖, 𝒃𝒖𝒅!!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)

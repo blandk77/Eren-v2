@@ -10,19 +10,14 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"""<b><blockquote>╭───────────⍟
-├➤ ᴏᴡɴᴇʀ : <a href='t.me/peldiya'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
-├➤ ʟɪʙʀᴀʀy : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
-├➤ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
-├➤ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/PythonBotz>ᴏᴜᴛʟᴀᴡ ʙᴏᴛs</a>
-├➤ ᴘᴀɪᴅ ʙᴏᴛ : <a href=https://t.me/seiao>ᯓ ɪɴᴠᴀʟɪᴅ ᡣ𐭩</a>
-├➤ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/metaui>ᯓ ʜᴀᴛᴇ ғʀᴇᴇ ᡣ𐭩</a>
-╰───────────────⍟</blockquote></b>""",
+            text = f"""◇──◇──◇──◇──◇──◇──◇──◇
+<blockquote>‣ Mʏ ᴜsᴇʀɴᴀᴍᴇ: <a href='https://t.me/ErenXJaegerbot'>𝙴𝚛𝚎𝚗 𝚈𝚎𝚊𝚐𝚎𝚛</a>\n\n‣ Cʜᴀɴɴᴇʟ I ᴡᴏʀᴋ ғᴏʀ: <a href="https://t.me/Animes_Guy">𝙰𝙶</a> , <a href="https://t.me/Ongoing_AnimeGuy">𝙾𝙰𝙶</a>, <a href="https://t.me/TNXAnimes">𝚃𝙽𝚇</a>\n\n‣ Cʀᴇᴀᴛᴏʀ ᴏғ ᴍᴇ: <a href='https://t.me/The_TGguy'>𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙶𝚞𝚢!!</a>\n\n‣ Dᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/'>𝙼𝚘𝚗𝚐𝚘 𝙳𝙱</a>\n\n‣ Pʀᴏɢʀᴀᴍᴍᴇᴅ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/'>𝙿𝚢𝚝𝚑𝚘𝚗</a>\n\n‣ Hᴏsᴛᴇᴅ Oɴ: <a href='https://www.heroku.com/'>𝙷𝚎𝚛𝚘𝚔𝚞</a>"</blockquote>
+◇──◇──◇──◇──◇──◇──◇──◇""",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
-                [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data ="source"),
-                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ" , callback_data = "main")],
-                 [InlineKeyboardButton("ᴡᴀᴛᴄʜ sʜᴏʀᴛs 𝟷𝟾+ ᴠɪᴅᴇᴏs", url = "https://t.me/UnseenRobot/shorts")],
+                [ [ InlineKeyboardButton("𝑨𝒏𝒊𝒎𝒆𝒔 𝑮𝒖𝒚!!", url = "https://t.me/Animes_Guy"),
+                  InlineKeyboardButton("𝑻𝑵𝑿𝑨𝑵𝑰𝑴𝑬𝑺" , url = "https://t.me/TNXAnimes")],
+                 [InlineKeyboardButton("𝑶𝒏𝒈𝒐𝒊𝒏𝒈 𝑨𝒏𝒊𝒎𝒆𝒔 𝑮𝒖𝒚!!", url = "https://t.me/Ongoing_AnimeGuy")],
                     [
                         InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"),
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
@@ -46,8 +41,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [   
                     [
-                        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+D-WW53u9rzNhNDJl"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",url = "t.me/pythonbotz")
+                        InlineKeyboardButton("𝑻𝑵𝑿𝑨𝑵𝑰𝑴𝑬𝑺", url="https://t.me/TNXAnimes"),
+                        InlineKeyboardButton("𝑨𝒏𝒊𝒎𝒆𝒔 𝑮𝒖𝒚!!",url = "https://t.me/Animes_Guy")
                     ],
                     [   InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"), 
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
@@ -67,17 +62,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [
-                    [ InlineKeyboardButton(text="🏖️", callback_data="about"),
-                    InlineKeyboardButton(text="🍂", callback_data="about"),
-                    InlineKeyboardButton(text="⚠️", callback_data="me"),
-                    InlineKeyboardButton(text="💸", callback_data="about"),
-                    InlineKeyboardButton(text="🎭", callback_data="about"),
-                ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" ),
-                    InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", callback_data = "source")
-                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "https://t.me/UnseenRobot/shorts") ],
-                [
-                    InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about"),
-                    InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
+                 [
+                    InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about")
                 ]
             ]
             )
@@ -95,8 +81,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 disable_web_page_preview=True,
                 reply_markup = InlineKeyboardMarkup(
                     [
-                        [  InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ",url= "t.me/HateXfree"),
-                         InlineKeyboardButton("ᴀᴅᴍɪɴ",url = "t.me/peldiya")],
+                        [  InlineKeyboardButton("𝑨𝒏𝒊𝒎𝒆𝒔 𝑮𝒖𝒚!!",url= "https://t.me/Animes_Guy"),
+                         InlineKeyboardButton("𝑻𝑵𝑿𝑨𝑵𝑰𝑴𝑬𝑺",url = "https://t.me/TNXAnimes")],
                         [ InlineKeyboardButton("🔙 ʙᴀᴄᴋ", callback_data = "home"),
                          InlineKeyboardButton( "🚫 ᴄʟᴏsᴇ", callback_data = "close")]
                     ]
@@ -110,8 +96,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [   
                     [
-                        InlineKeyboardButton("ɢɪᴛʜᴜʙ ", url="https://github.com/otterai/file-share-v2"),
-                        InlineKeyboardButton("ᴢɪᴘ ғɪʟᴇ",url="https://t.me/+Yy9O2e_eJwU3NjRl")
+                        InlineKeyboardButton("𝑻𝑵𝑿𝑨𝑵𝑰𝑴𝑬𝑺",url="https://t.me/TNXAnimes")
                     ],
                     [   InlineKeyboardButton("🔙 ʙᴀᴄᴋ" , callback_data = "home"),
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")

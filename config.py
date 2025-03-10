@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26728872"))
 API_HASH = os.environ.get("API_HASH", "96985c2aaea6c75408528909b7e18879")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002343892805"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1705634892"))
@@ -44,7 +44,7 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to dis
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Greetings!</b>\n\n𝙸𝚖 𝚊 𝚜𝚞𝚙𝚎𝚛𝚌𝚑𝚊𝚛𝚐𝚎𝚍 💾 𝚊𝚗𝚒𝚖𝚎 𝚏𝚒𝚕𝚎 𝚋𝚘𝚝, 🤖 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚞𝚙𝚕𝚘𝚊𝚍𝚜 𝚠𝚒𝚝𝚑 𝚎𝚊𝚜𝚎! ✨ 𝑰'𝒎 𝒑𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 <a href='https://t.me/Animes_Guy'>𝗔𝗻𝗶𝗺𝗲 𝗚𝘂𝘆!!</a> 😉.𝙸 𝚘𝚗𝚕𝚢 𝚜𝚝𝚘𝚛𝚎 𝚊𝚗𝚒𝚖𝚎 𝚏𝚒𝚕𝚎𝚜 😁 𝙸𝚗 𝚕𝚘𝚠 𝚖𝚋.")
+START_MSG = os.environ.get("START_MESSAGE", "𝑰'𝒎 𝑳𝒖𝒇𝒇𝒚!👒 𝑨𝒏𝒅 𝑰'𝒎 𝒈𝒐𝒏𝒏𝒂 𝒇𝒊𝒏𝒅 𝒕𝒉𝒆 𝑶𝒏𝒆 𝑷𝒊𝒆𝒄𝒆 😁... 𝒖𝒉, 𝑰 𝒎𝒆𝒂𝒏 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒇𝒊𝒏𝒅 𝒂𝒘𝒆𝒔𝒐𝒎𝒆 𝒂𝒏𝒊𝒎𝒆😅! 𝑪𝒉𝒆𝒄𝒌 𝒐𝒖𝒕 <a href='https://t.me/Animes_Guy'>𝗔𝗻𝗶𝗺𝗲𝘀 𝗚𝘂𝘆!!</a> & <a href='https://t.me/TNXANIMES'>𝗧𝗡𝗫𝗔𝗻𝗶𝗺𝗲𝘀</a> 𝒂𝒏𝒅 𝒄𝒐𝒎𝒆 𝒕𝒐 𝒎𝒆 𝒂𝒈𝒂𝒊𝒏 😉 , 𝑰 𝒘𝒊𝒍𝒍 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒚𝒐𝒖 𝒕𝒉𝒆 𝒈𝒓𝒆𝒂𝒕𝒆𝒔𝒕 𝒔𝒕𝒐𝒓𝒚 𝒆𝒗𝒆𝒓 𝒕𝒐𝒍𝒅 𝒊𝒏 𝒕𝒉𝒆 𝒉𝒊𝒔𝒕𝒐𝒓𝒚 𝒊𝒏 𝒉𝒊𝒈𝒉 𝒒𝒖𝒂𝒍𝒊𝒕𝒚!! 🎖️𝑾𝒉𝒂𝒕 𝒂𝒓𝒆 𝒚𝒐𝒖 𝒘𝒂𝒊𝒕𝒊𝒏𝒈 𝒇𝒐𝒓??")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1705634892 7465574522").split()):

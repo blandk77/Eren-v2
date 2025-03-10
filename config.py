@@ -38,7 +38,7 @@ TIME = int(os.environ.get("TIME", "0"))
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002169827133"))
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002347470858"))#put 0 to disable
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002444212826"))#put 0 to disable
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
@@ -58,7 +58,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hᴇʟʟᴏ!\n\nTᴏ ʜᴇʟᴘ
 # Start & Fsub Pics ----------------------------------- #
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
-PICS = (os.environ.get("PICS", "https://files.catbox.moe/lllex3.jpg")).split() #Required
+PICS = (os.environ.get("PICS", "https://files.catbox.moe/lllex3.jpg https://files.catbox.moe/2yztvd.jpg https://files.catbox.moe/uhv8s5.webp https://files.catbox.moe/2fbp1d.webp https://files.catbox.moe/pponhx.jpg https://files.catbox.moe/yzx835.jpg")).split() #Required
 
 # Start & Fsub Pics ----------------------------------- #
 

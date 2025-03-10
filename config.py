@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26728872"))
 API_HASH = os.environ.get("API_HASH", "96985c2aaea6c75408528909b7e18879")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002390658665"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1705634892"))
@@ -29,16 +29,16 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://telegramguy21:tnkIwvbNkJ5U3fZ7@botsuse.bpgag.mongodb.net/?retryWrites=true&w=majority&appName=Botsuse")
-DB_NAME = os.environ.get("DATABASE_NAME", "Not2Worry")
+DB_NAME = os.environ.get("DATABASE_NAME", "AG-TNX")
 
 #Time in seconds for message Auto delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "0"))
+TIME = int(os.environ.get("TIME", "3600"))
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002169827133"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002444212826")
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002347470858"))#put 0 to disable
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002444212826"))#put 0 to disable
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))

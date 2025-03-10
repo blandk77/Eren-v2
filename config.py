@@ -44,7 +44,7 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to dis
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Greetings!</b>\n\n𝙸𝚖 𝚊 𝚜𝚞𝚙𝚎𝚛𝚌𝚑𝚊𝚛𝚐𝚎𝚍 💾 𝚊𝚗𝚒𝚖𝚎 𝚏𝚒𝚕𝚎 𝚋𝚘𝚝, 🤖 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚞𝚙𝚕𝚘𝚊𝚍𝚜 𝚠𝚒𝚝𝚑 𝚎𝚊𝚜𝚎! ✨ 𝑰'𝒎 𝒑𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 <a href='https://t.me/Animes_Guy'>𝗔𝗻𝗶𝗺𝗲 𝗚𝘂𝘆!!</a> 😉.𝙸 𝚘𝚗𝚕𝚢 𝚜𝚝𝚘𝚛𝚎 𝚊𝚗𝚒𝚖𝚎 𝚏𝚒𝚕𝚎𝚜 😁 𝙸𝚗 𝚕𝚘𝚠 𝚖𝚋.")
+START_MSG = os.environ.get("START_MESSAGE", "𝑰 𝒘𝒐𝒏'𝒕 𝒍𝒆𝒕 𝒂𝒏𝒚𝒐𝒏𝒆 𝒕𝒂𝒌𝒆 𝒎𝒚 𝒇𝒓𝒆𝒆𝒅𝒐𝒎! 𝑨𝒏𝒅 <a href='https://t.me/Ongoing_AnimeGuy'>𝗢𝗻𝗴𝗼𝗶𝗻𝗴 𝗔𝗻𝗶𝗺𝗲 𝗚𝘂𝘆!!</a> 𝒘𝒊𝒍𝒍 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒇𝒊𝒏𝒅 𝒕𝒉𝒆 𝒂𝒏𝒊𝒎𝒆 𝒚𝒐𝒖 𝒏𝒆𝒆𝒅 𝒕𝒐 𝒃𝒓𝒆𝒂𝒌 𝒇𝒓𝒆𝒆 𝒇𝒓𝒐𝒎 𝒃𝒐𝒓𝒆𝒅𝒐𝒎! 𝑺𝒐 𝒘𝒉𝒚 𝒂𝒓𝒆 𝒚𝒐𝒖 𝒔𝒕𝒊𝒍𝒍 𝒘𝒂𝒊𝒕𝒊𝒏𝒈? 𝑱𝒐𝒊𝒏 𝒏𝒐𝒘!")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1705634892 7465574522").split()):

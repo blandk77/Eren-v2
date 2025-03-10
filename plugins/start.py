@@ -1,7 +1,3 @@
-#(©) PythonBotz 
-
- 
-
 import sys
 import os
 import asyncio
@@ -96,7 +92,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<i><b>Note: </b>\n\nThis file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</i>"
+                f"<blockquote>⚠️ 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 ⚠️ \n\n𝗕𝗲𝗳𝗼𝗿𝗲 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗘𝗽𝗶𝘀𝗼𝗱𝗲(𝘀) 𝗣𝗹𝗲𝗮𝘀𝗲 𝗙𝗼𝗿𝘄𝗮𝗿𝗱 𝗧𝗵𝗲𝗺 𝘁𝗼 𝗦𝗮𝘃𝗲𝗱 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗼𝗿 𝗔𝗻𝗼𝘁𝗵𝗲𝗿 𝗖𝗵𝗮𝘁, 𝗧𝗵𝗲 𝗳𝗶𝗹𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗯𝗼𝘁 𝘄𝗶𝘁𝗵𝗶𝗻 {get_exp_time(FILE_AUTO_DELETE)}!\n\n<u>Fᴏʀ ᴍᴏʀᴇ sᴜʙʙᴇᴅ Aɴɪᴍᴇs:</u>\n<a href='https://t.me/Animes_Guy'>𝑨𝒏𝒊𝒎𝒆𝒔 𝑮𝒖𝒚!!</a>\n<u>Fᴏʀ Tᴀᴍɪʟ Dᴜʙʙᴇᴅ Aɴɪᴍᴇs:</u>\n<a href='https://t.me/TNXANIMES'>𝑻𝑵𝑿𝑨𝑵𝑰𝑴𝑬𝑺</a></blockquote>"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
